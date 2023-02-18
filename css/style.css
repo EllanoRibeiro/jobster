@@ -410,10 +410,14 @@ small{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(46, 46, 46);
     margin-bottom: 60px;
     padding-bottom: 40px;
-    
+}
+
+.bk-pai div{
+    margin-left: 70px;
 }
 
 .job-img{
@@ -429,12 +433,54 @@ small{
    transform: scale(1.1);}
 
 .strong-pai{
+    margin-left: -75px;
     margin-top: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+.strong-pai2{
+    margin-left: -90px;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.strong-pai3{
+    margin-left: -45px;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.sbt2{
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: -160px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.sbt3{
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: -130px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
 
 .titulo5{
     color: white;
@@ -450,12 +496,14 @@ small{
     margin-left: 10px;
 }
 
-.sbt5{
+.bk-pai .sbt5{
+    margin-top: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: -160px;
+    margin-right: 50px;
+    text-align: center;
 
 }
 
@@ -673,6 +721,78 @@ section{
 
 }
 @media(max-width:768px){
+
+    .title-4{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 90px;
+        margin-bottom: -10px;
+    }
+
+    .strong-pai{
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 14%;
+    }
+    
+    .strong-pai2{
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    .strong-pai3{
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    
+    .sbt2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 17%;
+        text-align: center;
+    }
+    
+    .sbt3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 17%;
+        text-align:center
+    
+    }
+    
+
     
 main{
     display: flex;
@@ -687,6 +807,7 @@ main{
     color: white;
     margin-left: 3%;
     font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo-color{
@@ -750,7 +871,7 @@ width: 40%;
 
 header{
     display: flex;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     height: 80px;
     align-items: center;
     width: 100%;
@@ -1086,6 +1207,7 @@ small{
 }
 
 .job-img{
+    margin-left: 40%;
     margin-top: 35px;
     width: 130px;
     height: 130px;
@@ -1098,6 +1220,7 @@ small{
    transform: scale(1.1);}
 
 .strong-pai{
+    margin-left: -2px;
     margin-top: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -1125,6 +1248,7 @@ small{
     font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
 
 }
 
@@ -1342,7 +1466,73 @@ section{
 
 
 }
-@media(max-width:1024px){
+@media(min-width:1024px){
+
+
+    .strong-pai{
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 14%;
+    }
+    
+    .strong-pai2{
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    .strong-pai3{
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    
+    .sbt2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 17%;
+        text-align: center;
+    }
+    
+    .sbt3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 17%;
+        text-align:center
+    
+    }
+    
+
     main{
         background-color: rgb(58, 58, 58);
         height:490px ;
@@ -1823,12 +2013,13 @@ section{
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: px;
         margin-right: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 17%
+        margin-left: 17%;
+        text-align: center;
     
     }
     
@@ -2055,7 +2246,7 @@ section{
     }
 
 }
-@media(max-width:1366px){
+@media(min-width:1366px){
     main{
         background-color: rgb(58, 58, 58);
         height:490px ;
